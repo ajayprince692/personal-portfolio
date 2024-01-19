@@ -34,21 +34,13 @@ window.addEventListener("scroll", () => {
   })
 })
 
-// function linkAction() {
-//   /*Active link*/
-//   navLinks.forEach((n) => n.classList.remove("active"));
-//   this.classList.add("active");
-
-//   /*Remove menu mobile*/
 const navMenu = document.getElementById("nav-menu");
-//   navMenu.classList.remove("show");
-// }
 navLinks.forEach((n) => n.addEventListener("click", () => { navMenu.classList.remove("show") }));
 
 /*===== COPY Email =====*/
 const copy = document.getElementById("copy");
 copy.addEventListener("click", () => {
-  navigator.clipboard.writeText("kasulaarunteja@gmail.com");
+  navigator.clipboard.writeText("ajayprince1342@gamil.com");
   copy.innerHTML = "copied";
   setTimeout(() => {
     copy.innerHTML = null;
