@@ -451,7 +451,7 @@ img.man-icons {
   overflow: hidden;
 }
 .project-img img {
-  transition: 1s;
+  transition: 3s;
   cursor: pointer;
   margin-bottom: 0.5rem;
 }
